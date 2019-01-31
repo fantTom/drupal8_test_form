@@ -1,0 +1,7 @@
+users_module.example_form:
+  path: '/users-module'
+  defaults:
+    _form: '\Drupal\users_module\Form\MyForm'
+    _title: 'Пользовательская форма'
+  requirements:
+    _permission: 'access content'
